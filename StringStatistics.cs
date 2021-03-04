@@ -161,7 +161,7 @@ namespace cv4
         {
             string text = Text;
             text.ToLower();
-            return (text.Contains("covid") || text.Contains("covid-19") || text.Contains("sars-cov-2"));
+            return (text.Contains("covid")|| text.Contains("sars-cov-2")); //doesnt need to contain condition for covid-19 because covid is allready in this word
         }
         //☣☣☣☣☣☣☣☣☣☣☣☣
 
